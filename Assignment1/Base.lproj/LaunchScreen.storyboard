@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gameBackground" translatesAutoresizingMaskIntoConstraints="NO" id="6Ni-3Q-8ba">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="gvm-0b-bf0">
+                                <rect key="frame" x="80" y="204" width="160" height="160"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Slide To Play" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9YI-jj-1ez">
+                                <rect key="frame" x="62" y="384" width="196" height="33"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="26"/>
+                                <color key="textColor" red="0.2580974996" green="0.14989811180000001" blue="0.090181685979999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Ni-3Q-8ba" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="0II-BS-Y1I"/>
+                            <constraint firstAttribute="bottom" secondItem="6Ni-3Q-8ba" secondAttribute="bottom" id="H2P-iM-HJq"/>
+                            <constraint firstItem="9YI-jj-1ez" firstAttribute="centerX" secondItem="gvm-0b-bf0" secondAttribute="centerX" id="InH-hx-GR5"/>
+                            <constraint firstItem="gvm-0b-bf0" firstAttribute="centerX" secondItem="6Ni-3Q-8ba" secondAttribute="centerX" id="U5H-fB-Yut"/>
+                            <constraint firstItem="6Ni-3Q-8ba" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="UMw-EB-17p"/>
+                            <constraint firstItem="gvm-0b-bf0" firstAttribute="centerY" secondItem="6Ni-3Q-8ba" secondAttribute="centerY" id="h3G-LK-Xu9"/>
+                            <constraint firstItem="9YI-jj-1ez" firstAttribute="top" secondItem="gvm-0b-bf0" secondAttribute="bottom" constant="20" id="lJ0-F7-m8H"/>
+                            <constraint firstAttribute="trailing" secondItem="6Ni-3Q-8ba" secondAttribute="trailing" id="sGZ-ld-Ohl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="gameBackground" width="414" height="708"/>
+        <image name="logo" width="160" height="160"/>
+    </resources>
+</document>

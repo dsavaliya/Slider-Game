@@ -1,0 +1,20 @@
+PODS:
+  - JJFloatingActionButton (2.1.0)
+  - SwiftGifOrigin (1.7.0)
+
+DEPENDENCIES:
+  - JJFloatingActionButton
+  - SwiftGifOrigin
+
+SPEC REPOS:
+  trunk:
+    - JJFloatingActionButton
+    - SwiftGifOrigin
+
+SPEC CHECKSUMS:
+  JJFloatingActionButton: 26805f87c7e9f68c6a91bd9f3f09c2e6b904a84f
+  SwiftGifOrigin: fbd6cf37afcfcf97a5c3db996ddc0492e5c5c145
+
+PODFILE CHECKSUM: ef6d9bf60dc9a56c6fe0feb19a188251232d821d
+
+COCOAPODS: 1.8.4
